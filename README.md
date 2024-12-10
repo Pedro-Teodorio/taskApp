@@ -1,10 +1,10 @@
- TaskApp
+## TaskApp
 
 TaskApp é um aplicativo de gerenciamento de tarefas desenvolvido com React Native. Este README fornece uma visão geral das funcionalidades do aplicativo, bem como as bibliotecas utilizadas.
 
 ## Funcionalidades
 
-- **Gerenciamento de Tarefas**: Adicione, edite e remova tarefas.
+- **Gerenciamento de Tarefas**: Adicione e edite  tarefas.
 - **Navegação**: Navegação entre diferentes telas do aplicativo.
 - **Persistência de Dados**: Armazene tarefas localmente usando Realm.
 - **Interface de Usuário**: Componentes personalizados para uma interface de usuário intuitiva.
@@ -18,6 +18,7 @@ TaskApp é um aplicativo de gerenciamento de tarefas desenvolvido com React Nati
 - **UUID**: Biblioteca para geração de identificadores únicos universais (UUIDs).
 
 ## Estrutura do Projeto
+
 ```
 TaskApp/
 ├── __tests__/
@@ -63,3 +64,47 @@ TaskApp/
 │   └── screens/
 └── tsconfig.json
 ```
+
+
+## Configuração e Execução
+
+### Pré-requisitos
+
+- Node.js
+- npm ou Yarn
+- Android Studio (para emulação Android)
+- Xcode (para emulação iOS)
+
+### Instalação
+
+1. Clone o repositório:
+    ```bash
+    git clone https://github.com/seu-usuario/taskapp.git
+    cd taskapp
+    ```
+
+2. Instale as dependências:
+    ```bash
+    npm install
+    # ou
+    yarn install
+    ```
+
+### Executando o Aplicativo
+
+#### Android
+
+```bash
+npm run android
+# ou
+yarn android
+```
+
+#### iOS
+
+```bash
+npm run ios
+# ou
+yarn ios
+```
+
