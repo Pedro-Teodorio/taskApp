@@ -79,7 +79,7 @@ TaskApp/
 
 1. Clone o repositório:
     ```bash
-    git clone https://github.com/seu-usuario/taskapp.git
+    https://github.com/Pedro-Teodorio/taskApp.git
     cd taskapp
     ```
 
