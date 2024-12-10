@@ -18,6 +18,7 @@ TaskApp é um aplicativo de gerenciamento de tarefas desenvolvido com React Nati
 - **UUID**: Biblioteca para geração de identificadores únicos universais (UUIDs).
 
 ## Estrutura do Projeto
+```
 TaskApp/
 ├── __tests__/
 │   └── App.test.tsx
@@ -61,3 +62,4 @@ TaskApp/
 │   ├── routes/
 │   └── screens/
 └── tsconfig.json
+```
